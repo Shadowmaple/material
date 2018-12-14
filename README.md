@@ -1,2 +1,2 @@
 # material
-a variety of necessary material, including note, fuction.
+a variety of necessary material, including notes, fuctions.
