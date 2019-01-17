@@ -11,3 +11,15 @@ ps:在应用ubuntu过程中遇到的许些问题
     git rm -r --cached .
     git add .
     git commit -m 'update .gitignore'
+
+## 修改双系统引导顺序
+
+因为我用的是win+ubuntu的双系统，而ubuntu是之后安装的，因此在一开始进入开机引导界面时以ubuntu为默认选项。因为我的ubuntu是安装在机械硬盘上的，开机时间十分长，极不方便，因此我需要将默认选项修改为windows。
+
+1. 打开终端（ctrl+Alt+T）
+2. 输入`sudo gredit /etc/default/grub`
+3. 在文本编辑器gredit中
++ `GRUB_DEFAULT=0`代表默认启动项为第0项，若win为第三项，则改为2
++ `GRUB_TIMEOUT=10`代表选择时间(秒)
+4. 修改完成退出后，执行`sudo update-grub`，以更新修改
+
