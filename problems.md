@@ -30,4 +30,5 @@ ps:在应用ubuntu过程中遇到的许些问题
 ## 进出tty界面
 
 + 进入：Ctrl+Alt+F4
-+ 离开：Ctrl+Alt+F1（或F7、F&）
++ 离开：Ctrl+Alt+F1（或F7、F8）
+
