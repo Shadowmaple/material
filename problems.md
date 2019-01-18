@@ -14,8 +14,6 @@ ps:在应用ubuntu过程中遇到的许些问题
 
 ## 修改双系统引导顺序
 
-因为我用的是win+ubuntu的双系统，而ubuntu是之后安装的，因此在一开始进入开机引导界面时以ubuntu为默认选项。因为我的ubuntu是安装在机械硬盘上的，开机时间十分长，极不方便，因此我需要将默认选项修改为windows。
-
 1. 打开终端（ctrl+Alt+T）
 2. 输入`sudo gredit /etc/default/grub`
 3. 在文本编辑器gredit中
@@ -29,3 +27,7 @@ ps:在应用ubuntu过程中遇到的许些问题
 + 解决办法：`rm -rf ~/.cache/ibus/libpingin`
 + 当然这只是治标的方法，以后还会再次出现，想要完全避免的话只能换输入法了，如搜狗
 
+## 进出tty界面
+
++ 进入：Ctrl+Alt+F4
++ 离开：Ctrl+Alt+F1（或F7、F&）
