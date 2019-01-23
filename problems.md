@@ -1,6 +1,6 @@
 # Problems for ubuntu
 
-ps:在应用ubuntu过程中遇到的许些问题
+在应用ubuntu过程中遇到的许些问题
 
 ***
   
