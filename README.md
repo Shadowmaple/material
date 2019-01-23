@@ -1,2 +1,2 @@
-# material
-a variety of necessary material, including notes, fuctions.
+# Ubuntu
+Something for Ubuntu including its problems, configurations.
