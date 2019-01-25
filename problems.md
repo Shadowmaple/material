@@ -26,7 +26,9 @@
 ## ibus输入法的bug
 
 + 描述：切换中文输入时，键入拼音，按下数字键以选择候选字，但得到的却是键入的数字
-+ 解决办法：`rm -rf ~/.cache/ibus/libpingin`
++ 解决办法
+	+ `rm -rf ~/.cache/ibus/libpingin`
+	+ 重启，`shutdown -r now`
 + 当然这只是治标的方法，以后还会再次出现，想要完全避免的话只能换输入法了，如搜狗
 
 ## 误入tty4界面
