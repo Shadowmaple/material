@@ -12,7 +12,10 @@
 |Shift+Ctrl+N　|　新建窗口 |
 |Shift+Ctrl+Q　|　关闭终端 |
 | ctrl+shift+C | 复制(同理粘贴剪切)|
+|Ctrl + l | 清屏 |
 
+___
+ 
 
 # 命令行Command
 
@@ -34,7 +37,7 @@
 	+ ex：`chmod u-x code` 	取消code文件夹下uesr的executable(可执行)许可
 	+ ps：a-all, g-group, ... ; +/- ——添加/取消
 
-+ ls/l
++ `ls`/`l`
 	+ `ls -a`/`la`	列出所有目录，包括隐藏
 	+ `ls -l`/`ll`	列出目录且包括属性
 	+ `ll`			列出所有目录且包括属性
