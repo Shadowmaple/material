@@ -25,3 +25,7 @@ Ubuntu 官方软件源中包含了 Ubuntu 系统中所用到的绝大部分的�
 
 > 国内开源镜像站点汇总：https://segmentfault.com/a/1190000000375848
 
+
+# [切换为zsh](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/zsh.md)
+
+

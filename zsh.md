@@ -39,10 +39,10 @@ zsh是一个Linux下强大的shell, 由于大多数Linux产品安装，以及默
     + 也可以直接一道命令
 
             sudo usermod -s /bin/zsh [username]
-或者
+		或者
 
             chsh -s /bin/zsh
-或者
+		或者
 
             chsh -s `which zsh`
 
@@ -83,10 +83,10 @@ Oh-My-Zsh只是一个对zsh命令行环境的配置包装框架，但它不提�
     source ~/.zshrc
 
 # 参考文档
-[Linux终极shell-Z Shell-用强大的zsh & oh-my-zsh把Bash换掉](https://github.com/gatieme/AderXCoding/tree/master/system/tools/zsh)
-[oh-my-zsh](https://www.jianshu.com/p/d194d29e488c?open_source=weibo_search)
-[那些我希望在一开始使用 Zsh(oh-my-zsh) 时就知道的](https://segmentfault.com/a/1190000002658335)
-[各类插件](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview#fs-jumping)
++ [Linux终极shell-Z Shell-用强大的zsh & oh-my-zsh把Bash换掉](https://github.com/gatieme/AderXCoding/tree/master/system/tools/zsh)
++ [oh-my-zsh](https://www.jianshu.com/p/d194d29e488c?open_source=weibo_search)
++ [那些我希望在一开始使用 Zsh(oh-my-zsh) 时就知道的](https://segmentfault.com/a/1190000002658335)
++ [各类插件](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview#fs-jumping)
 
 
 
