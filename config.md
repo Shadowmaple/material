@@ -20,6 +20,6 @@ Ubuntu 官方软件源中包含了 Ubuntu 系统中所用到的绝大部分的�
 + `sudo vi /etc/apt/sources.list`
 + `sudo apt-get update` 要记得刷新一下
 
-> [参考文档](https://www.jianshu.com/p/57a91bc0c594)
-> [国内开源镜像站点汇总](https://segmentfault.com/a/1190000000375848)
+>参考文档：https://www.jianshu.com/p/57a91bc0c594
+国内开源镜像站点汇总：https://segmentfault.com/a/1190000000375848
 
