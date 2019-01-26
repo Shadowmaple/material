@@ -28,7 +28,7 @@ ___
 + `pwd`			当前路径
 + `free -h`			查看内存状态
 
-+ `select-editor` 修改默认编辑器
++ `sudo update-alternatives --config editor`	修改默认编辑器
 + `diff a b`	比较a和b的不同，a,b为文件或目录
 
 + `chmod`	修改文件(夹)许可
