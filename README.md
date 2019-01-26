@@ -8,7 +8,7 @@
 + ibus输入法
 + 出入tty界面
 
-##[ config](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/config.md)
+## [ config](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/config.md)
 
 + 添加源
 + 切换为zsh
