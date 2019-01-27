@@ -31,4 +31,34 @@ Ubuntu 官方软件源中包含了 Ubuntu 系统中所用到的绝大部分的�
 [文档](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/zsh.md)
 
 
+# termaintor
+
+## 简介
+Ubuntu自带的终端是gnome-terminal，虽然可以用但是看多个界面的代码的话会不太方便，termaintor是
+是一款非常好用的终端命令程序。
+
+Terminator 可以在同一个窗口上分割多个子窗口，每个小窗口运行独立的命令程序。
+
+## 安装
+
+    sudo apt-get install terminator
+
+## 快捷键
+| 操作 | 效果 |
+| :---: | :---: |
+| Shift+Ctrl+o |上下拆分屏幕|
+| Shift+Ctrl+e |左右拆分屏幕|
+| F11 |全屏切换|
+| Ctrl + Page Down/ Page Up |切换标签页|
+| ctrl+shift+right/left/up/down |  在分割的终端中将分割条向右/左/上/下移动 |
+| ctrl+ shift+s |  隐藏/显示滚动条|
+
+
+## 设置默认Terminal为Terminator
+
+    gsettings set org.gnome.desktop.default-applications.terminal exec   /usr/bin/terminator
+    gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-x"
+
+## 参考资料
+[terminator配置](https://www.jianshu.com/p/cee2de32ca28)
 
