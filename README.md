@@ -12,7 +12,7 @@
 
 + 添加源
 + 切换为zsh
-
++ terminator
 
 
 ## [Notes](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/notes.md)

@@ -31,7 +31,7 @@ ___
 
 ___
 
-# termaintor
+# terminator
 
 ## 简介
 Ubuntu自带的终端是gnome-terminal，虽然可以用但是看多个界面的代码的话会不太方便，termaintor是
