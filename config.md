@@ -25,11 +25,11 @@ Ubuntu 官方软件源中包含了 Ubuntu 系统中所用到的绝大部分的�
 
 > 国内开源镜像站点汇总：https://segmentfault.com/a/1190000000375848
 
+___
 
-# 切换为zsh
+# 切换为[zsh](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/zsh.md)
 
-[文档](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/zsh.md)
-
+___
 
 # termaintor
 
@@ -52,6 +52,8 @@ Terminator 可以在同一个窗口上分割多个子窗口，每个小窗口运
 | Ctrl + Page Down/ Page Up |切换标签页|
 | ctrl+shift+right/left/up/down |  在分割的终端中将分割条向右/左/上/下移动 |
 | ctrl+ shift+s |  隐藏/显示滚动条|
+
+更多詳見終端偏好設置
 
 
 ## 设置默认Terminal为Terminator
