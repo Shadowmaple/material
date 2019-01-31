@@ -64,3 +64,44 @@ Terminator 可以在同一个窗口上分割多个子窗口，每个小窗口运
 ## 参考资料
 [terminator配置](https://www.jianshu.com/p/cee2de32ca28)
 
+***
+
+# 更改pip源
+## 为什么要更改源？
+下载安装python各种模块及插件的速度过慢，延迟过长。此时除了网速以外，最大的问题还在于软件源。为此需要更换国内的软件源。
+几个常用的国内源：
+
+>阿里云
+http://mirrors.aliyun.com/pypi/simple/
+
+>中国科技大学
+https://pypi.mirrors.ustc.edu.cn/simple/
+
+>豆瓣
+http://pypi.douban.com/simple/
+
+>清华大学
+https://pypi.tuna.tsinghua.edu.cn/simple/
+
+>中国科学技术大学
+http://pypi.mirrors.ustc.edu.cn/simple/
+
+## 临时换源
+命令格式：sudo pip3 install 包名 -i 镜像源url
+
+    sudo pip3 install [package] -i http://mirrors.aliyun.com/pypi/simple/
+
+## 设为默认
+没有`.pip`文件夹，就新建一个，然后再新建 `pip.conf` 文件，编辑：
+
+     mkdir .pip
+     cd .pip
+     vi pip.conf
+
+写入以下内容：
+
+    [global]
+    trusted-host = mirrors.aliyun.com
+    index-url = http://mirrors.aliyun.com/pypi/simple/
+
+现在速度就可以起飞了2333
