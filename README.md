@@ -13,7 +13,7 @@
 + 添加源
 + 切换为zsh
 + terminator
-
++ 更换pip数据源
 
 ## [Notes](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/notes.md)
 
