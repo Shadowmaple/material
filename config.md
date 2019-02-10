@@ -25,11 +25,9 @@ Ubuntu 官方软件源中包含了 Ubuntu 系统中所用到的绝大部分的�
 
 > 国内开源镜像站点汇总：https://segmentfault.com/a/1190000000375848
 
-___
 
 # 切换为[zsh](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/zsh.md)
 
-___
 
 # terminator
 
@@ -64,7 +62,6 @@ Terminator 可以在同一个窗口上分割多个子窗口，每个小窗口运
 ## 参考资料
 [terminator配置](https://www.jianshu.com/p/cee2de32ca28)
 
-***
 
 # 更改pip源
 ## 为什么要更改源？

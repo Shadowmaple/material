@@ -29,12 +29,13 @@ zsh是一个Linux下强大的shell, 由于大多数Linux产品安装，以及默
 
 + 修改某用户的默认shell
     + 可用输入`chsh`选择：
-
-            lawler@maple:~$ chsh
-            Password: 
-            Changing the login shell for lawler
-            Enter the new value, or press ENTER for the default
-	                Login Shell [/bin/bash]: 
+		```
+        lawler@maple:~$ chsh
+        Password: 
+		Changing the login shell for lawler
+		Enter the new value, or press ENTER for the default
+				Login Shell [/bin/bash]: 
+		```
 
     + 也可以直接一道命令
 
@@ -73,14 +74,34 @@ Oh-My-Zsh只是一个对zsh命令行环境的配置包装框架，但它不提�
 
     vim ~/.zshrc
 修改为ys
-> ZSH_THEME="ys"
+
+	ZSH_THEME="ys"
 
 或者随机选择主题:
-> ZSH_THEME="random"
+
+	ZSH_THEME="random"
 
 更新配置：
         
     source ~/.zshrc
+
+## 自动补全插件
+[incr.zsh 补全插件](http://mimosa-pudica.net/zsh-incremental.html)
+
+下载：
+
+	wget http://mimosa-pudica.net/src/incr-0.2.zsh
+将此插件放到oh-my-zsh目录的插件库下：
+
+	mv incr-0.2.zsh .oh-my-zsh/plugins/incr
+在`~/.zshrc`文件末尾加上启动命令
+
+	source ~/.oh-my-zsh/plugins/incr/incr*.zsh
+更新配置
+
+	source ~/.zshrc
+
+> 详见参考文档
 
 # 参考文档
 + [Linux终极shell-Z Shell-用强大的zsh & oh-my-zsh把Bash换掉](https://github.com/gatieme/AderXCoding/tree/master/system/tools/zsh)
