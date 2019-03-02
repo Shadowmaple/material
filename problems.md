@@ -34,5 +34,5 @@
 ## 误入tty4界面
 
 + 进入：Ctrl+Alt+F4
-+ 离开：Ctrl+Alt+F1（或F7、F8）
++ 离开：Ctrl+Fn+Alt+F1（或F7、F8）
 
