@@ -36,3 +36,17 @@
 + 进入：Ctrl+Alt+F4
 + 离开：Ctrl+Fn+Alt+F1（或F7、F8）
 
+## The package system is broken
+安装软件的时候出现错误，遇到包管理系统损坏的问题，可能是之前`apt upgrade`的时候，中途强制停止升级，导致系统包安装不完全。
+
+解决方法：
+强制安装未下载完成的文件包
+```
+sudo apt-get -f install
+```
+然后更新
+```
+sudo apt-get update
+```
+
+
