@@ -7,6 +7,7 @@
 + 双系统引导顺序
 + ibus输入法
 + 出入tty界面
++ The package system is broken
 
 ## [ config](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/config.md)
 
