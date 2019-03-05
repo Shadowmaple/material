@@ -57,3 +57,12 @@ ___
 + 火狐：`firefox &`
 + 谷歌：`google-chrome &`
 
+# 进入root模式
+输入
+```
+su
+```
+输入root用户的密码即可
+
+输入`exit`回到用户权限
+

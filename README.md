@@ -16,9 +16,10 @@
 + terminator
 + 更换pip数据源
 
+
 ## [Notes](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/notes.md)
 
 + 终端窗口操作
 + 命令行
-
++ 进入root模式
 
