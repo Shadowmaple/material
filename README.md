@@ -7,8 +7,8 @@
 + 双系统引导顺序
 + ibus输入法
 + 出入tty界面
-+ The package system is broken
-+ xxx is not in the sudoers file.This incident will be reported.
++ `The package system is broken`
++ `xxx is not in the sudoers file.This incident will be reported`
 
 ## [ config](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/config.md)
 

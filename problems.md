@@ -50,8 +50,9 @@ sudo apt-get -f install
 sudo apt-get update
 ```
 
-## `xxx is not in the sudoers file.This incident will be reported.`
+## xxx is not in the sudoers file.This incident will be reported
 [参考原地址](http://www.cnblogs.com/xiaochaoyxc/p/6206481.html)
+解决方案：
 
 切换到root用户
 
@@ -70,6 +71,11 @@ sudo apt-get update
 撤销sudoers文件写权限
 
 	chmod u-w /etc/sudoers
+
+返回普通用户
+
+	exit
+
 
 |添加方案|效果|
 |:---:|:---:|
