@@ -50,8 +50,9 @@ sudo apt-get -f install
 sudo apt-get update
 ```
 
-## xxx is not in the sudoers file.This incident will be reported
+## xxx is not in the sudoers file.This incident will be reported.
 [参考原地址](http://www.cnblogs.com/xiaochaoyxc/p/6206481.html)
+
 解决方案：
 
 切换到root用户
