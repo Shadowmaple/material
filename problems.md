@@ -50,4 +50,32 @@ sudo apt-get -f install
 sudo apt-get update
 ```
 
+## `xxx is not in the sudoers file.This incident will be reported.`
+[参考原地址](http://www.cnblogs.com/xiaochaoyxc/p/6206481.html)
+
+切换到root用户
+
+	su
+
+添加sudo文件的写权限
+
+	chmod u+w /etc/sudoers
+
+编辑sudoers文件
+
+	vi /etc/sudoers
+
+在`root ALL=(ALL) ALL`下面添加`xxx ALL=(ALL) ALL`
+
+撤销sudoers文件写权限
+
+	chmod u-w /etc/sudoers
+
+|添加方案|效果|
+|:---:|:---:|
+|`youuser  ALL=(ALL) ALL`           |允许用户youuser执行sudo命令(需要输入密码)              |
+|`%youuser ALL=(ALL) ALL`           |允许用户组youuser里面的用户执行sudo命令(需要输入密码)  |
+|`youuser  ALL=(ALL) NOPASSWD: ALL` |允许用户youuser执行sudo命令,并且无需输入密码           |
+|`%youuser ALL=(ALL)  NOPASSWD: ALL` |允许用户组youuser内的用户执行sudo命令,并无需输入密码  |
+
 
