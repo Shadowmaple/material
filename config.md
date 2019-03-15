@@ -110,5 +110,5 @@ sudo apt-get install fcitx
 ```
 2. 设置，Language Support -> Keyboard input method system -> fcitx
 3. 重启
-4. 下载安装搜狗输入法
+4. 官网上下载安装linux版搜狗输入法
 5. 右上角Keyboard -> Configure 添加 Sougou (有个"+"号)
