@@ -16,6 +16,7 @@
 + 切换为zsh
 + terminator
 + 更换pip数据源
++ 安装搜狗输入法
 
 
 ## [Notes](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/notes.md)

@@ -102,3 +102,13 @@ http://pypi.mirrors.ustc.edu.cn/simple/
     index-url = http://mirrors.aliyun.com/pypi/simple/
 
 现在速度就可以起飞了2333
+
+## 安装搜狗输入法
+1. 安装fcitx
+```
+sudo apt-get install fcitx
+```
+2. 设置，Language Support -> Keyboard input method system -> fcitx
+3. 重启
+4. 下载安装搜狗输入法
+5. 右上角Keyboard -> Configure 添加 Sougou (有个"+"号)
