@@ -113,3 +113,5 @@ sudo apt-get install fcitx
 4. 官网上下载安装linux版搜狗输入法
 5. 重启fcitx (restart)
 6. 右上角Keyboard -> Configure 添加 Sougou (有个"+"号)
+
+ps: 搜狗输入法不要在英文键盘输入的上方，不然默认都是中文优先
