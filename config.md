@@ -59,6 +59,9 @@ Terminator 可以在同一个窗口上分割多个子窗口，每个小窗口运
     gsettings set org.gnome.desktop.default-applications.terminal exec   /usr/bin/terminator
     gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-x"
 
+## 字体颜色
+尽管字体颜色设为白色，但实际上显示的还是灰色，要改成全局的白色，只能在配置->色彩->前景与背景->内置方案中选择黑底白字。
+
 ## 参考资料
 [terminator配置](https://www.jianshu.com/p/cee2de32ca28)
 
