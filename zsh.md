@@ -108,9 +108,12 @@ Oh-My-Zsh只是一个对zsh命令行环境的配置包装框架，但它不提�
 变量：PS1 或 PROMPT
 
 ```shell
-➜  ~ git:(master) ✗ echo $PS1   # 查看当前设置
+# 查看当前设置
+➜  ~ git:(master) ✗ echo $PS1
 ${ret_status} %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)
-➜  ~ git:(master) ✗ PS1='${ret_status} %{$fg[cyan]%}%c%{$reset_color%} %{$fg_bold[magenta]%}%* $(git_prompt_info)'  #添加时间并赋予紫色
+
+#添加时间并赋予紫色
+➜  ~ git:(master) ✗ PS1='${ret_status} %{$fg[cyan]%}%c %{$fg_bold[magenta]%}%* $(git_prompt_info)$reset_color'
 ➜  ~ 16:35:31 git:(master) ✗ 
 ```
 
