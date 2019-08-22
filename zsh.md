@@ -123,6 +123,7 @@ ${ret_status} %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)
 在 `.zshrc` 中 `PROMPT=` 前面添加 `autoload -U colors && colors` 来启用彩色提示符
 
 ### 特定符号
+
 |code|info|
 | :---:|:---:|
 |%T|系统时间（时：分）
