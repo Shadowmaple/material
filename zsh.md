@@ -113,7 +113,7 @@ Oh-My-Zsh只是一个对zsh命令行环境的配置包装框架，但它不提�
 ${ret_status} %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)
 
 #添加时间并赋予紫色
-➜  ~ git:(master) ✗ PS1='${ret_status} %{$fg[cyan]%}%c %{$fg_bold[magenta]%}%* $(git_prompt_info)$reset_color'
+➜  ~ git:(master) ✗ PS1='${ret_status} %{$fg[cyan]%}%c %{$fg_bold[magenta]%}%* $(git_prompt_info)%{$reset_color%}'
 ➜  ~ 16:35:31 git:(master) ✗ 
 ```
 
