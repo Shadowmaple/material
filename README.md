@@ -13,10 +13,11 @@
 ## [ config](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/config.md)
 
 + 添加源
-+ 切换为zsh
++ 切换为[zsh-shell](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/zsh.md)
 + terminator
 + 更换pip数据源
 + 安装搜狗输入法
++ 修改默认编辑器
 
 
 ## [Notes](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/notes.md)

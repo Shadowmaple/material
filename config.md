@@ -20,13 +20,19 @@
 
 ## 修改官方源
 Ubuntu 官方软件源中包含了 Ubuntu 系统中所用到的绝大部分的软件，它对应的源列表是 `/etc/apt/sources.list`。只需要修改这个文件，就能添加我们想要的源。修改操作：
-+ `sudo vi /etc/apt/sources.list`
-+ `sudo apt-get update` 要记得刷新一下
+
+```shell
+sudo vi /etc/apt/sources.list
+sudo apt-get update
+```
+
+要记得刷新一下
 
 > 国内开源镜像站点汇总：https://segmentfault.com/a/1190000000375848
 
+# 切换为zsh-shell
 
-# 切换为[zsh](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/zsh.md)
+>    https://github.com/Shadowmaple/something_for_ubuntu/blob/master/zsh.md
 
 
 # terminator
@@ -39,7 +45,9 @@ Terminator 可以在同一个窗口上分割多个子窗口，每个小窗口运
 
 ## 安装
 
-    sudo apt-get install terminator
+```shell
+sudo apt-get install terminator
+```
 
 ## 快捷键
 | 操作 | 效果 |
@@ -56,7 +64,7 @@ Terminator 可以在同一个窗口上分割多个子窗口，每个小窗口运
 
 ## 设置默认Terminal为Terminator
 
-    gsettings set org.gnome.desktop.default-applications.terminal exec   /usr/bin/terminator
+    gsettings set org.gnome.desktop.default-applications.terminal exec /usr/bin/terminator
     gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-x"
 
 ## 字体颜色
@@ -89,14 +97,18 @@ http://pypi.mirrors.ustc.edu.cn/simple/
 ## 临时换源
 命令格式：sudo pip3 install 包名 -i 镜像源url
 
-    sudo pip3 install [package] -i http://mirrors.aliyun.com/pypi/simple/
+```shell
+sudo pip3 install [package] -i http://mirrors.aliyun.com/pypi/simple/
+```
 
 ## 设为默认
 没有`.pip`文件夹，就新建一个，然后再新建 `pip.conf` 文件，编辑：
 
-     mkdir .pip
-     cd .pip
-     vi pip.conf
+```shell
+mkdir .pip
+cd .pip
+vi pip.conf
+```
 
 写入以下内容：
 
@@ -108,7 +120,7 @@ http://pypi.mirrors.ustc.edu.cn/simple/
 
 ## 安装搜狗输入法
 1. 安装fcitx
-```
+```shell
 sudo apt-get install fcitx
 ```
 2. 设置，Language Support -> Keyboard input method system -> fcitx
@@ -118,3 +130,13 @@ sudo apt-get install fcitx
 6. 右上角Keyboard -> Configure 添加 Sougou (有个"+"号)
 
 ps: 搜狗输入法不要在英文键盘输入的上方，不然默认都是中文优先
+
+# 更改终端默认编辑器
+
+输入命令：
+
+```shell
+$ sudo update-alternatives --config editor
+```
+
+选择有 vim.basic 这项的数字就可以了

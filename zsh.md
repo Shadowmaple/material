@@ -17,21 +17,27 @@ zsh是一个Linux下强大的shell, 由于大多数Linux产品安装，以及默
 
 # 切换操作
 +  查看当前系统存在的shell环境
- 
-        cat /etc/shells
+
+    ```shell
+    cat /etc/shells
+    ```
 + 得到当前的shell环境
 
-        echo $SHELL
+    ```shell
+    echo $SHELL
+    ```
 + 在linux系统的`/etc/passwd`文件内是保存系统内所有用户和用户的设置。
-对某用户的默认设置也在这里。首先我们可以查看一下当前的用户设置：
+  对某用户的默认设置也在这里。首先我们可以查看一下当前的用户设置：
 
-        grep [username] /etc/passwd
+  ```shell
+  grep [username] /etc/passwd
+  ```
 
 + 修改某用户的默认shell
     + 可用输入`chsh`选择：
-		```
-        lawler@maple:~$ chsh
-        Password: 
+		```shell
+      lawler@maple:~$ chsh
+      Password: 
 		Changing the login shell for lawler
 		Enter the new value, or press ENTER for the default
 				Login Shell [/bin/bash]: 
@@ -39,19 +45,27 @@ zsh是一个Linux下强大的shell, 由于大多数Linux产品安装，以及默
 
     + 也可以直接一道命令
 
-            sudo usermod -s /bin/zsh [username]
-		或者
-
-            chsh -s /bin/zsh
-		或者
-
-            chsh -s `which zsh`
+        ```shell
+		sudo usermod -s /bin/zsh [username]
+```
+        或者
+		
+```shell
+        chsh -s /bin/zsh
+        ```
+        或者
+        
+        ```shell
+        chsh -s `which zsh`
+        ```
 
 
 
 + 重启
 
-        reboot
+    ```shell
+    sudo reboot
+    ```
 
 # oh-my-zsh
 ## 简介
@@ -67,41 +81,60 @@ Oh-My-Zsh只是一个对zsh命令行环境的配置包装框架，但它不提�
 前提：已安装git
 安装：
 
-    wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+```shell
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+```
 
+## 修改主题
 
-## 修改[主题](https://github.com/robbyrussell/oh-my-zsh/wiki/themes)
+>   [主题列表]((https://github.com/robbyrussell/oh-my-zsh/wiki/themes))
 
-    vim ~/.zshrc
+```shell
+vim ~/.zshrc
+```
 修改为ys
 
-	ZSH_THEME="ys"
+```shell
+ZSH_THEME="ys"
+```
 
 或者随机选择主题:
 
-	ZSH_THEME="random"
+```shell
+ZSH_THEME="random"
+```
 
 更新配置：
         
-    source ~/.zshrc
+```shell
+source ~/.zshrc
+```
 
 ## 自动补全插件
 [incr.zsh 补全插件](http://mimosa-pudica.net/zsh-incremental.html)
 
 下载：
 
-	wget http://mimosa-pudica.net/src/incr-0.2.zsh
+```shell
+wget http://mimosa-pudica.net/src/incr-0.2.zsh
+```
 将此插件放到oh-my-zsh目录的插件库下：
 
-	mv incr-0.2.zsh .oh-my-zsh/plugins/incr
+```shell
+mv incr-0.2.zsh .oh-my-zsh/plugins/incr
+```
 在`~/.zshrc`文件末尾加上启动命令
 
-	source ~/.oh-my-zsh/plugins/incr/incr*.zsh
+```shell
+source ~/.oh-my-zsh/plugins/incr/incr*.zsh
+```
 更新配置
 
-	source ~/.zshrc
+```shell
+source ~/.zshrc
+```
 
-> 详见参考文档
+详见参考文档
 
 ## 提示字符的设置
 ### 设置
@@ -126,21 +159,21 @@ ${ret_status} %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)
 
 |code|info|
 | :---:|:---:|
-|%T|系统时间（时：分）
-|%*|系统时间（时：分：秒）
-| %D| 系统日期（年-月-日）
-| %n| 你的用户名
-| %B - %b | 开始到结束使用粗体打印
-| %U - %u | 开始到结束使用下划线打印
-| %d | 你目前的工作目录
-| %~ | 你目前的工作目录相对于～的相对路径
-| %M |计算机的主机名
-| %m | 计算机的主机名（在第一个句号之前截断）
-| %l | 你当前的tty
-|%n |登录名
-
+|%T|系统时间（时：分）|
+|%*|系统时间（时：分：秒）|
+| %D| 系统日期（年-月-日）|
+| %n| 你的用户名|
+| %B - %b | 开始到结束使用粗体打印|
+| %U - %u | 开始到结束使用下划线打印|
+| %d | 你目前的工作目录|
+| %~ | 你目前的工作目录相对于～的相对路径|
+| %M |计算机的主机名|
+| %m | 计算机的主机名（在第一个句号之前截断）|
+| %l | 你当前的tty|
+|%n |登录名|
 
 # 参考文档
+
 + [Linux终极shell-Z Shell-用强大的zsh & oh-my-zsh把Bash换掉](https://github.com/gatieme/AderXCoding/tree/master/system/tools/zsh)
 + [oh-my-zsh](https://www.jianshu.com/p/d194d29e488c?open_source=weibo_search)
 + [那些我希望在一开始使用 Zsh(oh-my-zsh) 时就知道的](https://segmentfault.com/a/1190000002658335)
