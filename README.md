@@ -9,6 +9,7 @@
 + 出入tty界面
 + `The package system is broken`
 + `xxx is not in the sudoers file.This incident will be reported`
++ `gcc进行编译，出现报错:stdio.h:No such file or directory`
 
 ## [ config](https://github.com/Shadowmaple/something_for_ubuntu/blob/master/config.md)
 
