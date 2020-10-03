@@ -93,3 +93,11 @@ sudo apt-get update
 sudo apt-get install libc6-dev
 ```
 
+## unzip 解压中文文件名乱码
+
+Linux 下使用 unzip 解压来自 windows 的压缩包会使中文文件名乱码，这是因为 windows 是使用 gbk 中文编码， unzip 使用 `-O` 参数指定编码即可。
+
+```shell
+unzip -O gbk 中文.zip
+```
+
